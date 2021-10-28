@@ -24,7 +24,7 @@ above. Use of this work other than as specifically authorized by the U.S. Govern
 
 ## Deploying to Github Pages
 
-Adapted from https://svelteland.github.io/svelte-kit-blog-demo/deply-to-github
+Adapted from https://github.com/Sh031224/svelte-kit-github-page-example
 
 1. Install ```adapter-static``` and ```gh-pages```
 ```
@@ -44,8 +44,7 @@ const config = {
 			fallback: null
 		}),
     paths: {
-      base: '/your-repo-name',
-      assets: '/your-repo-name'
+      base: '/your-repo-name'
     }
 	}
 };
@@ -53,7 +52,9 @@ const config = {
 export default config;
 ```
 
-3. Add a deploy script to ```package.json```
+3. Add an empty ```.nojekyll``` file in your ```static/``` directory, otherwise GitHub Pages will ignore files with a leading underscore (ie ```_app/```)
+
+4. Add a deploy script to ```package.json```
 ```json
 {
   "scripts": {
@@ -62,3 +63,7 @@ export default config;
 }
 ```
 
+5. Run the deploy script
+```
+npm run deploy
+```
