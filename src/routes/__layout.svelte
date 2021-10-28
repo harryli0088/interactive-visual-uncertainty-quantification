@@ -8,7 +8,7 @@
 </main>
 
 <footer>
-  <p>Built using <a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">Svelte</a></p>
+  <p>Built using <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer">Svelte Kit</a></p>
   <p>Github Repo: <a href="https://github.com/harryli0088/interactive-visual-uncertainty-quantification" target="_blank" rel="noopener noreferrer">https://github.com/harryli0088/interactive-visual-uncertainty-quantification</a></p>
   <p>Icons provided by Font Awesome: <a href="https://fontawesome.com/license" target="_blank" rel="noopener noreferrer">https://fontawesome.com/license</a></p>
 </footer>

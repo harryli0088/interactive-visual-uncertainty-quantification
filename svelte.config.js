@@ -16,7 +16,6 @@ const config = {
 		}),
     paths: {
       base: '/interactive-visual-uncertainty-quantification',
-      // assets: '/interactive-visual-uncertainty-quantification'
     },
     // hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'

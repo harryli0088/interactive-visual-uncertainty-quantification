@@ -57,7 +57,7 @@ export default config;
 ```json
 {
   "scripts": {
-    "deploy": "npm run build && npx gh-pages -d build"
+    "deploy": "npm run build && npx gh-pages -d build -t true"
   }
 }
 ```
