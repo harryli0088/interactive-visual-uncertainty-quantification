@@ -36,17 +36,17 @@ npm i -D @sveltejs/adapter-static@next gh-pages
 import static_adapter from '@sveltejs/adapter-static';
 
 const config = {
-	kit: {
+  kit: {
     adapter: static_adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		}),
+      // default options are shown
+      pages: 'build',
+      assets: 'build',
+      fallback: null
+    }),
     paths: {
       base: process.env.NODE_ENV==="production" ? '/your-repo-name' : undefined,
     }
-	}
+  }
 };
 
 export default config;
