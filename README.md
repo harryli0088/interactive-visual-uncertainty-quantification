@@ -44,7 +44,7 @@ const config = {
 			fallback: null
 		}),
     paths: {
-      base: '/your-repo-name'
+      base: process.env.NODE_ENV==="production" ? '/your-repo-name' : undefined,
     }
 	}
 };

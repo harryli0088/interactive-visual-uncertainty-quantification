@@ -15,7 +15,7 @@ const config = {
 			fallback: null
 		}),
     paths: {
-      base: '/interactive-visual-uncertainty-quantification',
+      base: process.env.NODE_ENV==="production" ? '/interactive-visual-uncertainty-quantification' : undefined,
     },
     // hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'

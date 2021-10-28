@@ -43,7 +43,7 @@
     </button>
 
     <h2>Demo Video</h2>
-    <video width="100%" height="auto" controls>
+    <video width="100%" height="auto" controls style="background-color:gray">
       <source src="Interactive_Visual_Uncertainty_Quantification_Demo.mp4" type="video/mp4">
       Your browser does not support the video tag :( but you can view it <a href="Interactive_Visual_Uncertainty_Quantification_Demo.mp4" target="_blank" rel="noopener noreferrer">here</a>
     </video>
