@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:04,000
+As machine learning-based applications reach the hands of operators, 
+
+2
+00:00:04,001 --> 00:00:07,299
+the models often struggle to communicate the confidence of their predictions.
+
+3
+00:00:07,300 --> 00:00:09,999
+Operators may end up blindly trusting a model,
+
+4
+00:00:10,000 --> 00:00:12,599
+unaware that the model is only marginally confident 
+
+5
+00:00:12,600 --> 00:00:14,599
+or has never seen the input data during training.
+
+6
+00:00:14,600 --> 00:00:18,599
+We present a visualization dashboard for encrypted network traffic labels 
+
+7
+00:00:18,600 --> 00:00:20,999
+that combines confidence sliders and visualizations
+
+8
+00:00:21,000 --> 00:00:24,000
+to contextualize the model’s uncertainty.
+
