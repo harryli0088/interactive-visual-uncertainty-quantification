@@ -17,7 +17,7 @@
         </a>
       </div>
       <br/>
-      <div><i>Presented at <a href="https://vizsec.org/vizsec2021/" target="_blank" rel="noopener noreferrer">VizSec21</a>, Best Poster</i></div>
+      <div><i>Presented at <a href="https://vizsec.org/vizsec2021/" target="_blank" rel="noopener noreferrer">VizSec21</a>, <a href="certificate-best-poster.pdf" target="_blank" rel="noopener noreferrer">Best Poster</a></i></div>
       
     </div>
   </header>
